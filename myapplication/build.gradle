@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.example.android.myapplication"
+        applicationId "person.mueller.roland.myapplication"
         minSdkVersion 22
         //noinspection OldTargetApi
         targetSdkVersion 30
