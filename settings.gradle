@@ -1,3 +1,4 @@
+include ':MyWidget'
 include ':myapplication'
 include ':app'
 rootProject.name = "android-AppExamples"
