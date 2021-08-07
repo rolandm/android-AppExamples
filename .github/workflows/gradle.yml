@@ -24,6 +24,4 @@ jobs:
     - run: sudo apt update
     - run: sudo apt install gradle  
     - name: Gradle build
-      uses: eskatos/gradle-command-action@v1
-      with:
-        arguments: build
+      run: gradle build
