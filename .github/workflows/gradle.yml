@@ -23,5 +23,5 @@ jobs:
         distribution: 'adopt'
     - name: Gradle build
       uses: eskatos/gradle-command-action@v1
-....  with:
- .....  arguments: build
+      with:
+        arguments: build
