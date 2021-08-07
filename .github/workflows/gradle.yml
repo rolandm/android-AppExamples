@@ -21,6 +21,8 @@ jobs:
       with:
         java-version: '11'
         distribution: 'adopt'
+    - run: sudo apt update
+    - run: sudo apt install gradle  
     - name: Gradle build
       uses: eskatos/gradle-command-action@v1
       with:
